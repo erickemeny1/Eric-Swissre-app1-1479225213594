@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Eric-Swissre-app1
+  host: Eric-Swissre-app1
+  disk_quota: 1024M
+  services:
+  - Eric-Swissre-app1-cloudantNoSQLDB
+  - AlchemyAPI-5q
